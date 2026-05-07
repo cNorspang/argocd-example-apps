@@ -7,4 +7,5 @@ spec:
     owner: cNorspang
     name: argocd-example-apps
   scmProviderRef:
+    kind: ClusterScmProvider
     name: github

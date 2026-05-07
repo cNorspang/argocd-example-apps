@@ -1,5 +1,5 @@
 apiVersion: promoter.argoproj.io/v1alpha1
-kind: ScmProvider
+kind: ClusterScmProvider
 metadata:
   name: github
 spec:
