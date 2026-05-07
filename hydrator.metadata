@@ -1,7 +1,7 @@
 {
   "repoURL": "https://github.com/cNorspang/argocd-example-apps",
-  "drySha": "54b4a00c536f72dc93acfe7a96da33ed92e33da2",
+  "drySha": "2454834f7394eee229b9ebd4c10b57c0e01b20de",
   "author": "Casper Norspang <cbn@targit.com>",
-  "date": "2026-05-07T05:52:32Z",
+  "date": "2026-05-07T06:00:55Z",
   "subject": "Play with arcitecture"
 }
