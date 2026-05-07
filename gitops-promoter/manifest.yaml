@@ -12,7 +12,7 @@ apiVersion: promoter.argoproj.io/v1alpha1
 kind: GitRepository
 metadata:
   name: github-argocd-example-apps
-  namespace: argocd
+  namespace: development
 spec:
   github:
     name: argocd-example-apps
@@ -25,7 +25,7 @@ apiVersion: promoter.argoproj.io/v1alpha1
 kind: PromotionStrategy
 metadata:
   name: demo-github
-  namespace: argocd
+  namespace: development
 spec:
   activeCommitStatuses:
     - key: argocd-health
