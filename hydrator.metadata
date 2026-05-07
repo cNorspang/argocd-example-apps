@@ -1,7 +1,7 @@
 {
   "repoURL": "https://github.com/cNorspang/argocd-example-apps",
-  "drySha": "723b86e01bea11dcf72316cb172868fcbf05d69e",
-  "author": "Michael Crenshaw <350466+crenshaw-dev@users.noreply.github.com>",
-  "date": "2026-01-20T16:12:23Z",
-  "subject": "docs: Fix formatting and capitalization in README.md (#443)"
+  "drySha": "54b4a00c536f72dc93acfe7a96da33ed92e33da2",
+  "author": "Casper Norspang <cbn@targit.com>",
+  "date": "2026-05-07T05:52:32Z",
+  "subject": "Play with arcitecture"
 }
