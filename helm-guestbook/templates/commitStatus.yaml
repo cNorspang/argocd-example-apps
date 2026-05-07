@@ -5,7 +5,6 @@ metadata:
 spec:
   promotionStrategyRef:
     name: demo-github
-    namespace: default
   applicationSelector:
     matchLabels:
       app-name: helm-guestbook
