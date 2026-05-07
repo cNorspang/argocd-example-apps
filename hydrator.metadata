@@ -1,7 +1,7 @@
 {
   "repoURL": "https://github.com/cNorspang/argocd-example-apps",
-  "drySha": "7fc76e06ec1f7bb84ab053c6ccc2b2c7c0fc03c9",
+  "drySha": "ec6c851fa5e537dd550db1df9bdce9848fa5eee4",
   "author": "Casper Norspang <cbn@targit.com>",
-  "date": "2026-05-07T11:00:57Z",
-  "subject": "Move branches"
+  "date": "2026-05-07T11:10:11Z",
+  "subject": "5"
 }
