@@ -1,6 +1,6 @@
 {
   "repoURL": "https://github.com/cNorspang/argocd-example-apps",
-  "drySha": "19862c0a614aac0efed6f68b9537b90627ed7d49",
+  "drySha": "7fc76e06ec1f7bb84ab053c6ccc2b2c7c0fc03c9",
   "commands": [
     "helm template . --name-template development-helm-guestbook --namespace development --include-crds"
   ]

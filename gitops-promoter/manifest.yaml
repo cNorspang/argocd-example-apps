@@ -1,4 +1,16 @@
 apiVersion: promoter.argoproj.io/v1alpha1
+kind: ArgoCDCommitStatus
+metadata:
+  name: argocd-health
+  namespace: promoter-system
+spec:
+  applicationSelector:
+    matchLabels:
+      use-promoter: "true"
+  promotionStrategyRef:
+    name: demo-github
+---
+apiVersion: promoter.argoproj.io/v1alpha1
 kind: ClusterScmProvider
 metadata:
   name: github
@@ -12,7 +24,7 @@ apiVersion: promoter.argoproj.io/v1alpha1
 kind: GitRepository
 metadata:
   name: github-argocd-example-apps
-  namespace: development
+  namespace: promoter-system
 spec:
   github:
     name: argocd-example-apps
@@ -25,7 +37,7 @@ apiVersion: promoter.argoproj.io/v1alpha1
 kind: PromotionStrategy
 metadata:
   name: demo-github
-  namespace: development
+  namespace: promoter-system
 spec:
   activeCommitStatuses:
     - key: argocd-health

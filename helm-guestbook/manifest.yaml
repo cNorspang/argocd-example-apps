@@ -57,14 +57,3 @@ spec:
               path: /
               port: http
           resources: {}
----
-apiVersion: promoter.argoproj.io/v1alpha1
-kind: ArgoCDCommitStatus
-metadata:
-  name: argocd-health
-spec:
-  applicationSelector:
-    matchLabels:
-      app-name: helm-guestbook
-  promotionStrategyRef:
-    name: demo-github
