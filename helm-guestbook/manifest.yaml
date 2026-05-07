@@ -68,4 +68,3 @@ spec:
       app-name: helm-guestbook
   promotionStrategyRef:
     name: demo-github
-    namespace: default

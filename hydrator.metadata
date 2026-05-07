@@ -1,7 +1,7 @@
 {
   "repoURL": "https://github.com/cNorspang/argocd-example-apps",
-  "drySha": "1b456157ff9980277e997deeb91c796a78d3954b",
+  "drySha": "19862c0a614aac0efed6f68b9537b90627ed7d49",
   "author": "Casper Norspang <cbn@targit.com>",
-  "date": "2026-05-07T06:05:54Z",
-  "subject": "Specify ns"
+  "date": "2026-05-07T06:26:26Z",
+  "subject": "Fix ns"
 }
