@@ -1,7 +1,7 @@
 {
   "repoURL": "https://github.com/cNorspang/argocd-example-apps",
-  "drySha": "723b86e01bea11dcf72316cb172868fcbf05d69e",
-  "author": "Michael Crenshaw <350466+crenshaw-dev@users.noreply.github.com>",
-  "date": "2026-01-20T16:12:23Z",
-  "subject": "docs: Fix formatting and capitalization in README.md (#443)"
+  "drySha": "62703448e6c7ad4fbbd42ba7daf58a60e7bd7c5a",
+  "author": "Casper Norspang <cbn@targit.com>",
+  "date": "2026-05-07T06:58:21Z",
+  "subject": "Move ns"
 }
