@@ -1,7 +1,7 @@
 {
   "repoURL": "https://github.com/cNorspang/argocd-example-apps",
   "drySha": "54b4a00c536f72dc93acfe7a96da33ed92e33da2",
-  "author": "Casper Norspang <cbn@targit.com>",
-  "date": "2026-05-07T05:52:32Z",
-  "subject": "Play with arcitecture"
+  "commands": [
+    "helm template . --name-template gitops-promoter --namespace default --include-crds"
+  ]
 }
