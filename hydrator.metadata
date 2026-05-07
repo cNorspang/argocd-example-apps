@@ -1,0 +1,7 @@
+{
+  "repoURL": "https://github.com/cNorspang/argocd-example-apps",
+  "drySha": "723b86e01bea11dcf72316cb172868fcbf05d69e",
+  "author": "Michael Crenshaw <350466+crenshaw-dev@users.noreply.github.com>",
+  "date": "2026-01-20T16:12:23Z",
+  "subject": "docs: Fix formatting and capitalization in README.md (#443)"
+}
