@@ -1,29 +1,31 @@
 apiVersion: promoter.argoproj.io/v1alpha1
-kind: ArgoCDCommitStatus
+kind: ClusterScmProvider
 metadata:
-  name: argocd-health
+  name: github
 spec:
-  applicationSelector:
-    matchLabels:
-      app-name: helm-guestbook
-  promotionStrategyRef:
-    name: demo-github
+  github:
+    appID: 3617473
+  secretRef:
+    name: github-app-promoter
 ---
 apiVersion: promoter.argoproj.io/v1alpha1
 kind: GitRepository
 metadata:
   name: github-argocd-example-apps
+  namespace: argocd
 spec:
   github:
     name: argocd-example-apps
     owner: cNorspang
   scmProviderRef:
+    kind: ClusterScmProvider
     name: github
 ---
 apiVersion: promoter.argoproj.io/v1alpha1
 kind: PromotionStrategy
 metadata:
   name: demo-github
+  namespace: argocd
 spec:
   activeCommitStatuses:
     - key: argocd-health
@@ -36,13 +38,3 @@ spec:
       branch: environment/prod
   gitRepositoryRef:
     name: github-argocd-example-apps
----
-apiVersion: promoter.argoproj.io/v1alpha1
-kind: ScmProvider
-metadata:
-  name: github
-spec:
-  github:
-    appID: 3617473
-  secretRef:
-    name: github-app-promoter
